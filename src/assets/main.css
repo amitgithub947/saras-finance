@@ -1,0 +1,17 @@
+ @import "tailwindcss";
+
+/* You can keep your custom styles below this line if you have any */
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
