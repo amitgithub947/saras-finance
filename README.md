@@ -73,35 +73,7 @@ npm run build
 
 ```bash
 npm run preview
-```
 
-## 📁 Project Structure
-
-```
-saras-finance-search/
-├── public/              # Static assets
-├── src/
-│   ├── assets/         # Images, fonts, etc.
-│   │   └── main.css    # Additional styles
-│   ├── components/     # Vue components
-│   │   ├── BaseLoader.vue          # Skeleton loading component
-│   │   ├── DarkModeToggle.vue      # Dark mode switch
-│   │   ├── SearchBar.vue           # Search input component
-│   │   ├── SearchResultItem.vue    # Individual result card
-│   │   └── SearchResultList.vue    # Results container
-│   ├── composables/    # Reusable composition functions
-│   │   └── useDarkMode.js          # Dark mode state management
-│   ├── services/       # API and data services
-│   │   └── mockApi.js              # Mock search API
-│   ├── App.vue         # Root component
-│   ├── main.js         # Application entry point
-│   └── style.css       # Global styles with mobile optimizations
-├── index.html          # HTML entry point with PWA meta tags
-├── package.json        # Dependencies and scripts
-├── postcss.config.js   # PostCSS configuration
-├── tailwind.config.js  # Tailwind CSS configuration with dark mode
-└── vite.config.js      # Vite configuration
-```
 
 ## 🧩 Key Components
 
