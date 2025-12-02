@@ -73,7 +73,7 @@ npm run build
 
 ```bash
 npm run preview
-
+```
 
 ## 🧩 Key Components
 
